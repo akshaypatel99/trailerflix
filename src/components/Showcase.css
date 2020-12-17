@@ -63,7 +63,7 @@
 .Showcase__fadeBottom {
 	grid-row: 3;
 	grid-column: span 2;
-	height: 15rem;
+	height: 10rem;
 	background-image: linear-gradient(180deg, transparent, rgba(20, 20, 20));
 }
 
