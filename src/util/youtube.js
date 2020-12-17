@@ -18,7 +18,7 @@ export const showCaseOpts = {
 
 export const getTrailer = (movie) => {
 	console.log(movie);
-	if (movie?.media_type === 'tv' || movie?.id < 100000) {
+	if (movie?.media_type === 'tv' || movie?.id < 120000) {
 		async function fetchTvTrailer() {
 			const response = await axios.get(
 				`/tv/${movie?.id}/videos?api_key=653c477d23ad1a02863f9000bee83a2a&language=en-US`

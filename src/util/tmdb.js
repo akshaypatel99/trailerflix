@@ -3,11 +3,11 @@ const API_KEY = '653c477d23ad1a02863f9000bee83a2a';
 const requests = [
 	{
 		title: 'NETFLIX ORIGINALS',
-		fetchUrl: `/trending/all/week?api_key=${API_KEY}`,
+		fetchUrl: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
 	},
 	{
 		title: 'Trending Now',
-		fetchUrl: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+		fetchUrl: `/trending/all/week?api_key=${API_KEY}`,
 	},
 	{
 		title: 'Now Playing in Cinemas',

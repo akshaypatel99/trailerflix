@@ -24,3 +24,32 @@
 .Row__poster:hover {
 	transform: scale(1.5);
 }
+
+@media (max-width: 500px) {
+	.Row__container {
+		padding: 20px;
+	}
+	.Row__title {
+		padding-left: 1rem;
+	}
+	.Row__poster {
+		max-height: 150px;
+		transition: transform 0.5s;
+	}
+	.Row__poster:hover {
+		transform: scale(1.1);
+	}
+}
+
+@media (max-width: 768px), (max-height: 768px) {
+	.Row__container {
+		padding: 40px;
+	}
+	.Row__poster {
+		max-height: 200px;
+		transition: transform 0.5s;
+	}
+	.Row__poster:hover {
+		transform: scale(1.3);
+	}
+}

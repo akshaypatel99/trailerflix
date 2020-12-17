@@ -29,3 +29,23 @@
 .Navbar__user img {
 	border-radius: 5px;
 }
+
+@media (max-width: 500px) {
+	.Navbar {
+		padding: 0rem 2rem;
+		height: 60px;
+	}
+	.Navbar img {
+		height: 30px;
+	}
+}
+
+@media (max-height: 500px) {
+	.Navbar {
+		position: relative;
+	}
+
+	.Navbar__dark {
+		background-color: rgba(20, 20, 20, 0.1);
+	}
+}
